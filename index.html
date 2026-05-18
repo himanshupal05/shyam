@@ -623,6 +623,45 @@ font-size:16px;
 line-height:1.8;
 }
 
+}
+/* LOGO */
+
+.logo-img{
+width:55px;
+height:55px;
+object-fit:contain;
+border-radius:12px;
+}
+
+/* BRAND TEXT */
+
+.navbar-brand{
+font-size:28px;
+font-weight:800;
+color:#ffffff !important;
+display:flex;
+align-items:center;
+}
+
+.logo-text{
+background:linear-gradient(45deg,#8b5cf6,#ec4899);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+/* MOBILE */
+
+@media(max-width:576px){
+
+.logo-img{
+width:45px;
+height:45px;
+}
+
+.navbar-brand{
+font-size:22px;
+}
+
 }  
 
 </style>
@@ -635,6 +674,7 @@ line-height:1.8;
 <div class="container">
 
 <a class="navbar-brand" href="#">
+  <img src="logo.jpeg" alt="SHYAM AGENCY LOGO" class="logo-img">
 <i class="fa-solid fa-video"></i> <span>SHYAM</span> AGENCY
 </a>
 
